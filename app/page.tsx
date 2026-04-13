@@ -1,3 +1,5 @@
+"use client";
+
 import { ExamCard } from "@/components/exam-card";
 import { StatsCard } from "@/components/stats-card";
 import {
