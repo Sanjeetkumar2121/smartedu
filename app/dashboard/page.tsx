@@ -1,3 +1,5 @@
+"use client";
+
 import { StatsCard } from "@/components/stats-card";
 import { PerformanceChart } from "@/components/charts/performance-chart";
 import { AccuracyChart } from "@/components/charts/accuracy-chart";
