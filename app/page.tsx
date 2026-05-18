@@ -7,6 +7,7 @@ import {
   Landmark,
   Anchor,
   Train,
+  Shield,
   Target,
   Clock,
   TrendingUp,
@@ -57,6 +58,17 @@ const exams = [
     subjects: 7,
     tests: 450,
     gradient: "bg-warning",
+  },
+  {
+    id: "nda",
+    title: "NDA",
+    description:
+      "National Defence Academy exam preparation for defence forces recruitment.",
+    icon: Shield,
+    href: "/subjects?exam=nda",
+    subjects: 9,
+    tests: 550,
+    gradient: "bg-danger",
   },
 ];
 
